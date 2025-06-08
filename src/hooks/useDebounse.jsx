@@ -20,5 +20,5 @@ export default function useDebounse(callback, delay) {
             callback(...args);
         }, delay)
     }
-    return debouncedCallback;
+    return debounseCallback;
 }

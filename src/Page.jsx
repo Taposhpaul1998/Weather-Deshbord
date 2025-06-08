@@ -60,7 +60,7 @@ export default function Page() {
                 ) : (
                     <div
                         style={{ backgroundImage: `url('${climateImage}')` }}
-                        className="grid place-items-center h-screen">
+                        className="grid place-items-center h-screen bg-no-repeat bg-cover">
                         <Header />
                         <WeatherBord />
                     </div>
